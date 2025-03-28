@@ -1,6 +1,7 @@
 import random
 from Teclado import Teclado
 
+# inicia el programa utilizando clase main
 def main():
     # Generar el número secreto
     numero_secreto = random.randint(1, 100)
@@ -22,5 +23,6 @@ def main():
         else:
             print(f"¡Felicidades! Adivinaste el número en {intentos} intentos.")
             break
+# Ejecuta el programa
 if __name__ == "__main__":
     main()

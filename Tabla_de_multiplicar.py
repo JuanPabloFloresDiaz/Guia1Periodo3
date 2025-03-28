@@ -2,6 +2,7 @@
 
 from Teclado import Teclado
 
+""" Inicia el programa utilizando clase main """
 def tabla_unica():
     # Solicita al usuario un número entero y muestra su tabla de multiplicar del 1 al 10.
     num = Teclado.read_integer("Ingrese un número entero para ver su tabla de multiplicar:")
@@ -27,5 +28,6 @@ def main():
     else:
         print("Opción no válida. Saliendo del programa.")
 
+""" Ejecuta el programa """
 if __name__ == "__main__":
     main()

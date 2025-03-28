@@ -2,7 +2,7 @@ class Teclado:
     @staticmethod
     def _validate_length(input_str, min_length, max_length):
         """
-        Valida que la longitud de input_str esté entre el rango de longitudes,
+        Valida que la longitud del texto del input esté entre el rango de longitudes,
         si alguno de los límites es None, se ignora esa verificación.
         """
         if min_length is not None and len(input_str) < min_length:
@@ -26,7 +26,7 @@ class Teclado:
     @staticmethod
     def read_double(mensaje, min_length=None, max_length=None, min_value=None, max_value=None):
         """
-        Lee un número decimal desde el input y valida:
+        Validar un número decimal desde el input:
           - Que cumpla con la longitud indicada
           - Que el número esté dentro del rango de valores especificados
         """
